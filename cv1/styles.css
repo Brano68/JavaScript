@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(167, 167, 190);
+  }
+  
+  * {
+    box-sizing: border-box;
+    border: 2;
+  }
+  
+  h1 {
+    margin-left: 15px;
+  }
+  
+  #minus {
+    background-color: purple;
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  #plus {
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin: 20px;
+    margin-left: 85px;
+    font-size: 25px;
+  }
